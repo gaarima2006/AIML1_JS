@@ -47,13 +47,18 @@
 //  document.write("linebreak");
 //  document.write("(a>b)=>");
 //  document.write("linebreak");
-var count;
-document.write("starting loop"+"<br/>");
-for(count=0;count<10;count++)
-{
-document.write("current count" + count);
-document.write("<br/>");
-}
+// var count;
+// document.write("starting loop"+"<br/>");
+// for(count=0;count<10;count++)
+// {
+// document.write("current count" + count);
+// document.write("<br/>");
+// }
 const person={
-    fname:"ajay"
+    fname:"ajay",
+    lname:"sngh",
+    age:25
+};
+for(let x in person){
+    console.log("person details:"+x+":"+person[x])
 }
