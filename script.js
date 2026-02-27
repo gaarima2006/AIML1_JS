@@ -135,14 +135,29 @@
 
 
 // for in loop
-// for(key in object) {
-// code block to be executed
+
+// const person = {
+// fname: "Ajay",
+// Iname: "Singh",
+// age: 25
 // }
-const person = {
-fname: "Ajay",
-Iname: "Singh",
-age: 25
+// for (let x in person) {
+// console.log("person details: " + x + ":" + person[x])
+// }
+
+// const person = {
+// fname: "Ajay",
+// Iname: "Singh",
+// age: 25
+// }
+// for (let x in person) {
+// console.log("person details: " + x + ":" + person.x)
+// }
+var count=0;
+document.write("starting loop");
+while(count<10)
+{
+    document.write("current count:"+count+"<br/>");
+    count++;
 }
-for (let x in person) {
-console.log("person details: " + x + ":" + person[x])
-}
+document.write("loop stopped");
