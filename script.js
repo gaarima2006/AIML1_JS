@@ -152,12 +152,29 @@
 // }
 // for (let x in person) {
 // console.log("person details: " + x + ":" + person.x)
+// // }
+// var count=0;
+// document.write("starting loop");
+// while(count<10)
+// {
+//     document.write("current count:"+count+"<br/>");
+//     count++;
 // }
-var count=0;
-document.write("starting loop");
-while(count<10)
+// document.write("loop stopped");
+// document.write ("existing switch block");
+//java script function
+// function function name (parameter list)
+// function myfunction()
+// {
+//     alert("hello world");
+// }
+// function sayHello(name,age)
+// {
+//     document.write(name+"is"+age+"is")
+// }
+var res=mul(2,30);
+function mul(x,y)
 {
-    document.write("current count:"+count+"<br/>");
-    count++;
+    return x*y;
 }
-document.write("loop stopped");
+document.write(res);
