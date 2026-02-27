@@ -40,3 +40,29 @@
 //     count++;
 // }
 // document.write("loop stopped1");
+// var age=20;
+// if(agr>18)
+// {
+//     document.write("<b>You are eligible to vote </b>");
+// }
+var grade = 'A';
+document.write("Entering switch block <br/>");
+switch(grade) {
+    case 'A' : document.write("good job <br/>");
+    break;
+
+    case 'B' : document.write("preety good <br/>");
+    break;
+
+    case 'C' : document.write("passed <br/>");
+    break;
+
+    case 'D' : document.write("not so good <br/>");
+    break;
+
+     case 'E' : document.write("failed <br/>");
+    break;
+
+    default: document.write("unknown grade")
+}
+document.write ("existing switch block");
