@@ -172,9 +172,38 @@
 // {
 //     document.write(name+"is"+age+"is")
 // }
-var res=mul(2,30);
-function mul(x,y)
-{
-    return x*y;
-}
-document.write(res);
+// var res=mul(2,30);
+// function mul(x,y)
+// {
+//     return x*y;
+// }
+// document.write(res);
+//arrow function
+//normal function
+//arrow function
+// var add2=(a,b)=>{
+//  console.log(a+b);
+// }
+// add2(102,20);
+// // ----------------------------------------------------------------------------
+// var person={
+//     name:"Jhon mac",
+//     age:30,
+//     ismarried:true,
+//     address:{
+//         street:"vijay nagar",
+//         flatno:201
+
+//     }
+// }
+// for (let x in person) {
+//  console.log("person details: " + x + ":" + person[x])
+// }
+var person2 = new Object();
+person2.name = "geet";     // to add properties to this object
+person2.age = 32;
+person2.ismarried = true;
+person2.address = {};
+person2.address.street = "nagar road";
+person2['address']['flatNO'] = 33;
+console.log(person2)
