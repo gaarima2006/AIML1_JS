@@ -199,11 +199,33 @@
 // for (let x in person) {
 //  console.log("person details: " + x + ":" + person[x])
 // }
-var person2 = new Object();
-person2.name = "geet";     // to add properties to this object
-person2.age = 32;
-person2.ismarried = true;
-person2.address = {};
-person2.address.street = "nagar road";
-person2['address']['flatNO'] = 33;
-console.log(person2)
+// var person2 = new Object();
+// person2.name = "geet";     // to add properties to this object
+// person2.age = 32;
+// person2.ismarried = true;
+// person2.address = {};
+// person2.address.street = "nagar road";
+// person2['address']['flatNO'] = 33;
+// console.log(person2)
+//ARRAY IS AN ODERED COLLECTION OF DATA
+// OBJECT IS NOT A COLLECTION OF DATA
+//ARRAY IS A SPECIAL KIND OF OBJECT
+//CONST MYINFORMATIO=[]
+// var myinfo=new array[];
+// var myinfo1= array[];
+// console.log(myinfo,myinfo1);
+// let collection=[
+//     [],
+//     true,
+//     "john"function()
+//     900000000,
+//     undefined,
+//     null,
+//     new string("jhon Me"),
+// ];
+// console.log(collection);
+// const result=document.getElementById("para");
+// result.innerHTML="my self";
+// result.title="myname";
+const result2=document.getElementsByClassNae("heading");
+result2.innerHTNL="hii";
