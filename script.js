@@ -245,5 +245,3 @@
 // bodytag[0],append("heading");
 function onhandlfocus(){
     x.style.background="red";
-
-}
