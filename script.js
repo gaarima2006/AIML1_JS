@@ -243,5 +243,26 @@
 // const heading =document.createElement("h2");
 // const bodytag =document.getElementsByTagName("body");
 // bodytag[0],append("heading");
-function onhandlfocus(){
-    x.style.background="red";
+// function onhandlfocus()
+
+// {      x.style.background="red";
+//     <input type="text" onkeydown="customizeInput()"></input>}
+    
+// function customizeInput() {
+//   var ele = document.getElementsByTagName("INPUT")[0];
+//   ele.style.backgroundColor = "yellow";
+//   ele.style.color = "red";
+// }
+
+const heading = document.createElement("h2");
+const bodytag = document.getElementsByTagName("body");
+bodytag[0].append(heading);
+
+heading.innerText = "hello";
+heading.style.backgroundColor = "red";
+const heading = document.createElement("h2");
+const b= document.getElementsByTagName("body");
+bodytag[0].append(heading);
+
+heading.innerText = "hello";
+heading.style.backgroundColor = "red";
